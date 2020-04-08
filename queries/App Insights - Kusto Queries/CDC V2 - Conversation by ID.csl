@@ -1,0 +1,19 @@
+// this is where you put the name of your bot instance
+let tenantName_ = "traceyt-healthbot-u2gdlbf";
+
+customEvents
+| extend step_ = todynamic(tostring(customDimensions.step))
+| extend response_ = todynamic(tostring(step_.response))
+| extend conv_id_ = tostring(customDimensions.conv_id)
+| extend dialogName_ = tostring(customDimensions.dialogName)
+| extend dialogOutcome_ = tostring(customDimensions.dialogOutcome)
+| extend speaker_ = tostring(customDimensions.speaker)
+| extend stepLabel_ = step_.label
+| extend state_ = tostring(response_.state)
+| extend messageType_ = name
+| where customDimensions.tenantName == tenantName_
+//| where messageType_ == "StepExecuted" 
+| where speaker_ == "User"
+| where conv_id_ == "15f76ad94dbad44926fdab208e45dd60db5e6f916e7805176eae5c9aea456a8e"
+| order by conv_id_ , timestamp asc
+| project timestamp, conv_id_ , stepLabel_, step_, response_, customDimensions.dialogName, dialogOutcome_, messageType_ , customDimensions 

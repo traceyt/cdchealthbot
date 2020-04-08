@@ -1,0 +1,105 @@
+// this is where you put the name of your bot instance
+let tenantName_ = "traceyt-healthbot-u2gdlbf";
+
+customEvents
+| extend conv_id_ = tostring(customDimensions.conv_id)
+| extend scenarioStartTime_ = timestamp 
+| extend dialogName_ = tostring(customDimensions.dialogName)
+| extend dialogOutcome_ = tostring(customDimensions.dialogOutcome)
+| where customDimensions.tenantName == tenantName_
+| where name == "ScenarioStart"
+| where dialogName_ == '/scenarios/covid19'
+| order by conv_id_,timestamp asc
+| project conv_id_, dialogName_ , dialogOutcome_ , name, date_ =  format_datetime(scenarioStartTime_, 'yyyy-MM-dd'), hour_ = format_datetime(scenarioStartTime_, 'HH')
+// get the end time of the conversation - conversations that have an end time are completed
+| join kind= inner (
+        customEvents
+        | extend conv_id_ = tostring(customDimensions.conv_id)
+        | extend dialogName_ = tostring(customDimensions.dialogName)
+        | extend dialogOutcome_ = tostring(customDimensions.dialogOutcome)
+        | extend scenarioEndTime_ = timestamp 
+        | where customDimensions.tenantName == tenantName_
+        | where name == "ScenarioEnded"
+        | where dialogName_ == '/scenarios/covid19_core' // this catches the ending time in the conversation, if the wrapper is extended then likely you should pick up the wrapper ending time.
+        | project conv_id_, scenarioEndTime_ , dialogName_ , dialogOutcome_, name
+) on conv_id_
+// get the state response
+| join kind= inner (
+   customEvents
+        | extend conv_id_ = tostring(customDimensions.conv_id)        
+        | extend step_ = todynamic(tostring(customDimensions.step))   
+        | extend response_ = todynamic(tostring(step_.response))
+        | extend stepLabel_ = step_.label  
+        | extend state_ = response_.state   
+        | extend dialogOutcome_ = tostring(customDimensions.dialogOutcome)
+        | extend dialogName_ = tostring(customDimensions.dialogName)
+        | extend text_ = tostring(customDimensions.text)
+        | where customDimensions.tenantName == tenantName_ 
+        | where name == "StepExecuted"
+        | where stepLabel_ == "State"
+        | project conv_id_ , state_
+) on conv_id_
+// get the healthcare worker response
+| join kind= leftouter (
+   customEvents
+        | extend conv_id_ = tostring(customDimensions.conv_id)
+        | extend step_ = todynamic(tostring(customDimensions.step))   
+        | extend response_ = todynamic(tostring(step_.response))
+        | extend stepLabel_ = step_.label  
+        | extend hcf_ = response_.entity
+        | extend hcfIndex_ = response_.index           
+        | where customDimensions.tenantName == tenantName_ 
+        | where name == "StepExecuted"
+        | where stepLabel_ == "HCF"
+        | project conv_id_ , hcf_, hcfIndex_ 
+) on conv_id_ 
+// get the long term care facility response
+| join kind= leftouter (
+   customEvents
+        | extend conv_id_ = tostring(customDimensions.conv_id)
+        | extend step_ = todynamic(tostring(customDimensions.step))   
+        | extend response_ = todynamic(tostring(step_.response))
+        | extend stepLabel_ = step_.label  
+        | extend ltcf_ = response_.entity
+        | extend ltcfIndex_ = response_.index           
+        | where customDimensions.tenantName == tenantName_ 
+        | where name == "StepExecuted"
+        | where stepLabel_ == "LTCF"
+        | project conv_id_ , ltcf_, ltcfIndex_ 
+) on conv_id_ 
+// get the 911 response
+| join kind= leftouter (
+   customEvents
+        | extend conv_id_ = tostring(customDimensions.conv_id)
+        | extend step_ = todynamic(tostring(customDimensions.step))   
+        | extend response_ = todynamic(tostring(step_.response))
+        | extend stepLabel_ = step_.label  
+        | extend 911sym_ = response_.entity
+        | extend 911symIndex_ = response_.index           
+        | where customDimensions.tenantName == tenantName_ 
+        | where name == "StepExecuted"
+        | where stepLabel_ == "911 SYM"
+        | project conv_id_ , 911sym_, 911symIndex_  
+) on conv_id_ 
+// get the emergency department response
+| join kind= leftouter (
+   customEvents
+        | extend conv_id_ = tostring(customDimensions.conv_id)
+        | extend step_ = todynamic(tostring(customDimensions.step))   
+        | extend response_ = todynamic(tostring(step_.response))
+        | extend stepLabel_ = step_.label  
+        | extend edsym_ = response_.entity
+        | extend edsymIndex_ = response_.index           
+        | where customDimensions.tenantName == tenantName_ 
+        | where name == "StepExecuted"
+        | where stepLabel_ == "ED SYM"
+        | project conv_id_ , edsym_, edsymIndex_  
+) on conv_id_
+
+
+| summarize count() by tostring(state_), 
+        date_,
+        hour_,
+        tostring(ltcf_), toint(ltcfIndex_), 
+        tostring(911sym_) , toint(911symIndex_), 
+        tostring(edsym_), toint(edsymIndex_)

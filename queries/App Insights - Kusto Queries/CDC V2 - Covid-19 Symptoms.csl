@@ -1,0 +1,103 @@
+// this is where you put the name of your bot instance
+let tenantName_ = "traceyt-healthbot-u2gdlbf";
+
+let bad_conv_id_ = dynamic(['b9c423a695dbfb6fb64c3df2bc680ad1eabd404c740d529e33f7f02e7f6512e8',
+'8b4c5b62710af722dde498ecd77359e0cd05bd8aa08498f378a72e5ff810f091',
+'dc5fc0f17eab60ed3618cec377524d22a48b7b5b46e704ce4f857c94410d632b',
+'da433453404ec5197f400d64fb6dda3ffc4bb469f6940511b15bd44126c6c6b0',
+'d22173de04a4de9552a865c55959c601efe71bbc138999f2373a01092db2665e',
+'8227a512acade5dbe9da81ef53175730a4b50cf71d39c056058aff000f16d7f0'
+]);
+
+
+let msg_outcome_list_ = dynamic(['MSG 0', 
+                            'MSG 1', 
+                            'MSG 2', 
+                            'MSG 3', 
+                            'MSG 4', 
+                            'MSG 5', 
+                            //'MSG 6',  // including leaving out msg 6 as it is captured as the hcf flag
+                            'MSG 7', 
+                            'MSG 8', 
+                            'MSG 9', 
+                            'MSG 10', 
+                            'MSG 11', 
+                            'MSG 12', 
+                            'MSG 13']);
+
+customEvents
+| extend conv_id_ = tostring(customDimensions.conv_id)
+| extend scenarioStartTime_ = timestamp 
+| extend dialogName_ = tostring(customDimensions.dialogName)
+| extend dialogOutcome_ = tostring(customDimensions.dialogOutcome)
+| where customDimensions.tenantName == tenantName_
+| where name == "ScenarioStart"
+| where dialogName_ == '/scenarios/covid19'
+| where conv_id_ !in (bad_conv_id_)
+| order by conv_id_,timestamp asc
+| project conv_id_, dialogName_ , dialogOutcome_ , name, date_ =  format_datetime(scenarioStartTime_, 'yyyy-MM-dd'), hour_ = format_datetime(scenarioStartTime_, 'HH')
+// get the end time of the conversation - conversations that have an end time are completed
+| join kind= inner (
+        customEvents
+        | extend conv_id_ = tostring(customDimensions.conv_id)
+        | extend dialogName_ = tostring(customDimensions.dialogName)
+        | extend dialogOutcome_ = tostring(customDimensions.dialogOutcome)
+        | extend scenarioEndTime_ = timestamp 
+        | where customDimensions.tenantName == tenantName_
+        | where name == "ScenarioEnded"
+        | where dialogName_ == '/scenarios/covid19_core' // this catches the ending time in the conversation, if the wrapper is extended then likely you should pick up the wrapper ending time.
+        | project conv_id_, scenarioEndTime_ , dialogName_ , dialogOutcome_, name
+) on conv_id_
+// get the outcome of the conversation.  note that we are ignorring the MSG 6 outcome as it is already captured by the HCF flag
+| join kind= inner (
+   customEvents
+        | extend conv_id_ = tostring(customDimensions.conv_id)
+        | extend step_ = todynamic(tostring(customDimensions.step))   
+        | extend response_ = todynamic(tostring(step_.response))
+        | extend outcome_ = step_.label  
+        | where customDimensions.tenantName == tenantName_ 
+        | where name == "StepExecuted"
+        | where outcome_ in (msg_outcome_list_)
+        | project conv_id_ , outcome_
+) on conv_id_ 
+// get the state response
+| join kind= inner (
+   customEvents
+        | extend conv_id_ = tostring(customDimensions.conv_id)        
+        | extend step_ = todynamic(tostring(customDimensions.step))   
+        | extend response_ = todynamic(tostring(step_.response))
+        | extend stepLabel_ = step_.label  
+        | extend state_ = response_.state   
+        | extend dialogOutcome_ = tostring(customDimensions.dialogOutcome)
+        | extend dialogName_ = tostring(customDimensions.dialogName)
+        | extend text_ = tostring(customDimensions.text)
+        | where customDimensions.tenantName == tenantName_ 
+        | where name == "StepExecuted"
+        | where stepLabel_ == "State"
+        | project conv_id_ , state_
+) on conv_id_
+// get the Risk Factors
+| join kind= inner (
+   customEvents
+        | extend conv_id_ = tostring(customDimensions.conv_id)        
+        | extend step_ = todynamic(tostring(customDimensions.step))   
+        | extend response_ = todynamic(tostring(step_.response))
+        | extend stepLabel_ = step_.label  
+        | extend state_ = response_.state   
+        | extend dialogOutcome_ = tostring(customDimensions.dialogOutcome)
+        | extend dialogName_ = tostring(customDimensions.dialogName)
+        | extend text_ = tostring(customDimensions.text)
+        | where customDimensions.tenantName == tenantName_ 
+        | where name == "StepExecuted"
+        | where stepLabel_ == "COV SYM"
+        | project conv_id_ , state_, response_ 
+) on conv_id_
+| mvexpand response_
+| summarize count() by tostring(state_), 
+            date_,
+            hour_,
+            tostring(outcome_), 
+            tostring(response_.entity),
+            toint(response_.index)
+
+
