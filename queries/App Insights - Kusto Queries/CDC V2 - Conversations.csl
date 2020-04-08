@@ -14,9 +14,5 @@ customEvents
 | where customDimensions.tenantName == tenantName_
 //| where messageType_ == "StepExecuted" 
 | where speaker_ == "User"
-| where conv_id_ == "2051f176bf7f367a426c51c7b3e986f23307e146d68fcd7d2330ada59f3a58e0"
 | order by conv_id_ , timestamp asc
-| project timestamp, conv_id_ , stepLabel_, step_, response_, customDimensions.dialogName, dialogOutcome_, messageType_ , customDimensions 
-
-
-
+| project conv_id_ , stepLabel_, step_, response_, customDimensions.dialogName, dialogOutcome_, messageType_ , customDimensions 

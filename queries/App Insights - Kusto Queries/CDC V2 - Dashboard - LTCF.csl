@@ -75,44 +75,25 @@ customEvents
         | where stepLabel_ == "State"
         | project conv_id_ , state_
 ) on conv_id_
-// get the gender response
+// get the long term care facility response
 | join kind= leftouter (
    customEvents
         | extend conv_id_ = tostring(customDimensions.conv_id)
         | extend step_ = todynamic(tostring(customDimensions.step))   
         | extend response_ = todynamic(tostring(step_.response))
         | extend stepLabel_ = step_.label  
-        | extend gender_ = response_.entity
-        | extend genderIndex_ = response_.index   
-        | extend dialogOutcome_ = tostring(customDimensions.dialogOutcome)
-        | extend dialogName_ = tostring(customDimensions.dialogName)
-        | extend text_ = tostring(customDimensions.text)
+        | extend ltcf_ = response_.entity
+        | extend ltcfIndex_ = response_.index           
         | where customDimensions.tenantName == tenantName_ 
         | where name == "StepExecuted"
-        | where stepLabel_ == "Gender"
-        | project conv_id_ , gender_, genderIndex_
-) on conv_id_
-// get the age response
-| join kind= leftouter (
-   customEvents
-        | extend conv_id_ = tostring(customDimensions.conv_id)
-        | extend step_ = todynamic(tostring(customDimensions.step))   
-        | extend response_ = todynamic(tostring(step_.response))
-        | extend stepLabel_ = step_.label  
-        | extend age_ = response_.entity
-        | extend ageIndex_ = response_.index   
-        | extend dialogOutcome_ = tostring(customDimensions.dialogOutcome)
-        | extend dialogName_ = tostring(customDimensions.dialogName)
-        | extend text_ = tostring(customDimensions.text)
-        | where customDimensions.tenantName == tenantName_ 
-        | where name == "StepExecuted"
-        | where stepLabel_ == "Age"
-        | project conv_id_ , age_, ageIndex_
-) on conv_id_
+        | where stepLabel_ == "LTCF"
+        | project conv_id_ , ltcf_, ltcfIndex_ 
+) on conv_id_ 
+/
+
 
 | summarize count() by tostring(state_), 
         date_,
         hour_,
         tostring(outcome_),
-        tostring(gender_), toint(genderIndex_),
-        tostring(age_), toint(ageIndex_)
+        tostring(ltcf_), toint(ltcfIndex_)

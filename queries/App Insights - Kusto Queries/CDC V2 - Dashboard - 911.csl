@@ -48,7 +48,7 @@ customEvents
         | project conv_id_, scenarioEndTime_ , dialogName_ , dialogOutcome_, name
 ) on conv_id_
 // get the outcome of the conversation.  note that we are ignorring the MSG 6 outcome as it is already captured by the HCF flag
-| join kind= inner (
+| join kind= leftouter (
    customEvents
         | extend conv_id_ = tostring(customDimensions.conv_id)
         | extend step_ = todynamic(tostring(customDimensions.step))   
@@ -60,7 +60,7 @@ customEvents
         | project conv_id_ , outcome_
 ) on conv_id_ 
 // get the state response
-| join kind= inner (
+| join kind= leftouter (
    customEvents
         | extend conv_id_ = tostring(customDimensions.conv_id)        
         | extend step_ = todynamic(tostring(customDimensions.step))   
@@ -74,23 +74,6 @@ customEvents
         | where name == "StepExecuted"
         | where stepLabel_ == "State"
         | project conv_id_ , state_
-) on conv_id_
-// get the gender response
-| join kind= leftouter (
-   customEvents
-        | extend conv_id_ = tostring(customDimensions.conv_id)
-        | extend step_ = todynamic(tostring(customDimensions.step))   
-        | extend response_ = todynamic(tostring(step_.response))
-        | extend stepLabel_ = step_.label  
-        | extend gender_ = response_.entity
-        | extend genderIndex_ = response_.index   
-        | extend dialogOutcome_ = tostring(customDimensions.dialogOutcome)
-        | extend dialogName_ = tostring(customDimensions.dialogName)
-        | extend text_ = tostring(customDimensions.text)
-        | where customDimensions.tenantName == tenantName_ 
-        | where name == "StepExecuted"
-        | where stepLabel_ == "Gender"
-        | project conv_id_ , gender_, genderIndex_
 ) on conv_id_
 // get the age response
 | join kind= leftouter (
@@ -109,10 +92,25 @@ customEvents
         | where stepLabel_ == "Age"
         | project conv_id_ , age_, ageIndex_
 ) on conv_id_
+// get the 911 response
+| join kind= leftouter (
+   customEvents
+        | extend conv_id_ = tostring(customDimensions.conv_id)
+        | extend step_ = todynamic(tostring(customDimensions.step))   
+        | extend response_ = todynamic(tostring(step_.response))
+        | extend stepLabel_ = step_.label  
+        | extend 911sym_ = response_.entity
+        | extend 911symIndex_ = response_.index           
+        | where customDimensions.tenantName == tenantName_ 
+        | where name == "StepExecuted"
+        | where stepLabel_ == "911 SYM"
+        | project conv_id_ , 911sym_, 911symIndex_  
+) on conv_id_ 
+
 
 | summarize count() by tostring(state_), 
         date_,
         hour_,
         tostring(outcome_),
-        tostring(gender_), toint(genderIndex_),
-        tostring(age_), toint(ageIndex_)
+        tostring(age_), toint(ageIndex_),
+        tostring(911sym_), toint(911symIndex_)
