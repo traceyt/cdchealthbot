@@ -35,7 +35,6 @@ customEvents
         | where customDimensions.tenantName == tenantName_
         | where name == "ScenarioStart"
         | where dialogName_ == '/scenarios/covid19'
-        | where conv_id_ !in (bad_conv_id_)
         | order by conv_id_,timestamp asc
         | project conv_id_, dialogName_ , name, date_ =  format_datetime(scenarioStartTime_, 'yyyy-MM-dd'), hour_ = format_datetime(scenarioStartTime_, 'HH')
 ) on conv_id_ 
