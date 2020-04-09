@@ -6,3 +6,5 @@ This repo is a derivative the Microsoft Healthbot ( (https://github.com/Microsof
 Please refer to [Microsoft Health Bot](https://www.microsoft.com/en-us/research/project/health-bot/) for a private preview and details.
 
 A simple web page to hand off users to the Microsoft Health bot
+
+The covid-19 templates are coming from the CDC Github site. https://github.com/CDCgov/covid19healthbot
