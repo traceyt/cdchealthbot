@@ -1,15 +1,6 @@
 // this is where you put the name of your bot instance
 let tenantName_ = "traceyt-healthbot-u2gdlbf";
 
-
-let bad_conv_id_ = dynamic(['b9c423a695dbfb6fb64c3df2bc680ad1eabd404c740d529e33f7f02e7f6512e8',
-'8b4c5b62710af722dde498ecd77359e0cd05bd8aa08498f378a72e5ff810f091',
-'dc5fc0f17eab60ed3618cec377524d22a48b7b5b46e704ce4f857c94410d632b',
-'da433453404ec5197f400d64fb6dda3ffc4bb469f6940511b15bd44126c6c6b0',
-'d22173de04a4de9552a865c55959c601efe71bbc138999f2373a01092db2665e',
-'8227a512acade5dbe9da81ef53175730a4b50cf71d39c056058aff000f16d7f0'
-]);
-
 let msg_outcome_list_ = dynamic(['MSG 0', 
                             'MSG 1', 
                             'MSG 2', 
@@ -25,16 +16,28 @@ let msg_outcome_list_ = dynamic(['MSG 0',
                             'MSG 12', 
                             'MSG 13']);
 
+// this will filter out the conversation ids that have duplicate entries
 customEvents
 | extend conv_id_ = tostring(customDimensions.conv_id)
-| extend scenarioStartTime_ = timestamp 
 | extend dialogName_ = tostring(customDimensions.dialogName)
+| extend messageType_ = name
 | where customDimensions.tenantName == tenantName_
-| where name == "ScenarioStart"
-| where dialogName_ == '/scenarios/covid19'
-| where conv_id_ !in (bad_conv_id_)
-| order by conv_id_,timestamp asc
-| project conv_id_, dialogName_ , name, date_ =  format_datetime(scenarioStartTime_, 'yyyy-MM-dd'), hour_ = format_datetime(scenarioStartTime_, 'HH')
+| where dialogName_ == "/scenarios/covid19"
+| where messageType_ == "ScenarioStart" 
+| summarize count_ = count() by conv_id_
+| where count_ > 1
+// now get all the rest of the conversations that were not duplicated
+| join kind=rightanti (                            
+        customEvents
+        | extend conv_id_ = tostring(customDimensions.conv_id)
+        | extend scenarioStartTime_ = timestamp 
+        | extend dialogName_ = tostring(customDimensions.dialogName)
+        | where customDimensions.tenantName == tenantName_
+        | where name == "ScenarioStart"
+        | where dialogName_ == '/scenarios/covid19'
+        | order by conv_id_,timestamp asc
+        | project conv_id_, dialogName_ , name, date_ =  format_datetime(scenarioStartTime_, 'yyyy-MM-dd'), hour_ = format_datetime(scenarioStartTime_, 'HH')
+) on conv_id_ 
 // get the end time of the conversation - conversations that have an end time are completed
 | join kind= inner (
         customEvents
