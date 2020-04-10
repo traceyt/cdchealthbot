@@ -1,5 +1,7 @@
 // this is where you put the name of your bot instance
-let tenantName_ = "traceyt-healthbot-u2gdlbf";
+let tenantName_ = 'traceyt-healthbot-u2gdlbf';
+let dialogname_covid19_ = '/scenarios/covid19';
+let dialogname_covid19_core_ = '/scenarios/covid19_core';
 
 let msg_outcome_list_ = dynamic(['MSG 0', 
                             'MSG 1', 
@@ -22,8 +24,8 @@ customEvents
 | extend dialogName_ = tostring(customDimensions.dialogName)
 | extend messageType_ = name
 | where customDimensions.tenantName == tenantName_
-| where dialogName_ == "/scenarios/covid19"
-| where messageType_ == "ScenarioStart" 
+| where dialogName_ == dialogname_covid19_
+| where messageType_ == 'ScenarioStart' 
 | summarize count_ = count() by conv_id_
 | where count_ > 1
 // now get all the rest of the conversations that were not duplicated
@@ -33,8 +35,8 @@ customEvents
         | extend scenarioStartTime_ = timestamp 
         | extend dialogName_ = tostring(customDimensions.dialogName)
         | where customDimensions.tenantName == tenantName_
-        | where name == "ScenarioStart"
-        | where dialogName_ == '/scenarios/covid19'
+        | where name == 'ScenarioStart'
+        | where dialogName_ == dialogname_covid19_
         | order by conv_id_,timestamp asc
         | project conv_id_, dialogName_ , name, date_ =  format_datetime(scenarioStartTime_, 'yyyy-MM-dd'), hour_ = format_datetime(scenarioStartTime_, 'HH')
 ) on conv_id_ 
@@ -46,8 +48,8 @@ customEvents
         | extend dialogOutcome_ = tostring(customDimensions.dialogOutcome)
         | extend scenarioEndTime_ = timestamp 
         | where customDimensions.tenantName == tenantName_
-        | where name == "ScenarioEnded"
-        | where dialogName_ == '/scenarios/covid19_core' // this catches the ending time in the conversation, if the wrapper is extended then likely you should pick up the wrapper ending time.
+        | where name == 'ScenarioEnded'
+        | where dialogName_ == dialogname_covid19_core_ // this catches the ending time in the conversation, if the wrapper is extended then likely you should pick up the wrapper ending time.
         | project conv_id_, scenarioEndTime_ , dialogName_ , dialogOutcome_, name
 ) on conv_id_
 // get the outcome of the conversation.  note that we are ignorring the MSG 6 outcome as it is already captured by the HCF flag
@@ -58,7 +60,7 @@ customEvents
         | extend response_ = todynamic(tostring(step_.response))
         | extend outcome_ = step_.label  
         | where customDimensions.tenantName == tenantName_ 
-        | where name == "StepExecuted"
+        | where name == 'StepExecuted'
         | where outcome_ in (msg_outcome_list_)
         | project conv_id_ , outcome_
 ) on conv_id_ 
@@ -71,8 +73,8 @@ customEvents
         | extend stepLabel_ = step_.label  
         | extend state_ = response_.state   
         | where customDimensions.tenantName == tenantName_ 
-        | where name == "StepExecuted"
-        | where stepLabel_ == "State"
+        | where name == 'StepExecuted'
+        | where stepLabel_ == 'State'
         | project conv_id_ , state_
 ) on conv_id_
 // get the Risk Factors
@@ -83,8 +85,8 @@ customEvents
         | extend response_ = todynamic(tostring(step_.response))
         | extend stepLabel_ = step_.label  
         | where customDimensions.tenantName == tenantName_ 
-        | where name == "StepExecuted"
-        | where stepLabel_ == "COV SYM"
+        | where name == 'StepExecuted'
+        | where stepLabel_ == 'COV SYM'
         | project conv_id_ , response_ 
 ) on conv_id_
 | mvexpand response_
