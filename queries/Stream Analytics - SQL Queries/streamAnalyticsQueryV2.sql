@@ -29,7 +29,7 @@ STEPS2 AS (
         STEPS.step as step,
         try_cast(STEPS.step.response as array) as multichoice
     FROM STEPS
-    HAVING STEPS.step.label = 'Risk factors' or STEPS.step.label = 'COV SYM'
+    HAVING STEPS.step.label = 'Risk factors' or STEPS.step.label = 'COV SYM' or STEPS.step.label = 'Other'
 )
 
 SELECT
