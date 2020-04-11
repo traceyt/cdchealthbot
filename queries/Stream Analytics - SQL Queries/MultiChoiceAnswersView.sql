@@ -1,3 +1,5 @@
+drop VIEW MultiChoiceAnswersView
+go
 CREATE VIEW MultiChoiceAnswersView
 as
 select 

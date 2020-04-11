@@ -1,44 +1,64 @@
-CREATE TABLE Steps(
-   id                 VARCHAR(40) NOT NULL
-  ,eventtime          DATETIME  NOT NULL
-  ,eventtype          VARCHAR(100)
-  ,convid             VARCHAR(80) NOT NULL
-  ,tenantname         VARCHAR(100)
-  ,tenantid           VARCHAR(100)
-  ,dialogname         VARCHAR(100)
-  ,speaker            VARCHAR(100)
-  ,stepid             VARCHAR(100)
-  ,steplabel          VARCHAR(200)
-  ,stepresponse       VARCHAR(1000)
-  ,steptext           VARCHAR(1000)
-  ,stepresponseindex  INTEGER
-  ,stepresponseentity VARCHAR(1000)
-  ,dialogoutcome      VARCHAR(100)
-);
+drop table Steps
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Steps](
+	[id] [varchar](100) NOT NULL,
+	[eventtime] [datetime] NOT NULL,
+	[eventtype] [varchar](100) NULL,
+	[convid] [varchar](80) NOT NULL,
+	[tenantname] [varchar](100) NULL,
+	[tenantid] [varchar](100) NULL,
+	[dialogname] [varchar](100) NULL,
+	[speaker] [varchar](100) NULL,
+	[stepid] [varchar](100) NULL,
+	[steplabel] [varchar](200) NULL,
+	[stepresponse] [varchar](1000) NULL,
+	[steptext] [varchar](1000) NULL,
+	[stepresponseindex] [int] NULL,
+	[stepresponseentity] [varchar](1000) NULL,
+	[dialogoutcome] [varchar](100) NULL
+) ON [PRIMARY]
+GO
 
-CREATE TABLE Messages(
-   id            VARCHAR(40) NOT NULL
-  ,eventtime     VARCHAR(28) NOT NULL
-  ,eventtype     VARCHAR(100)  
-  ,convid        VARCHAR(100) NOT NULL
-  ,tenantname    VARCHAR(100)
-  ,tenantid      VARCHAR(40)
-  ,dialogname         VARCHAR(100)
-  ,speaker       VARCHAR(100)
-  ,text          VARCHAR(2000)
-  ,dialogoutcome  VARCHAR(100)
-);
 
-CREATE TABLE MultiChoiceAnswers(
-   id            VARCHAR(40) NOT NULL
-  ,eventtime     VARCHAR(28) NOT NULL
-  ,eventtype     VARCHAR(100)
-  ,convid        VARCHAR(100) NOT NULL
-  ,tenantname    VARCHAR(100)
-  ,tenantid      VARCHAR(40)
-  ,dialogname    VARCHAR(100)  
-  ,label         VARCHAR(100)
-  ,score         int
-  ,entity        VARCHAR(200)
-  ,[index]       int
-);
+drop table Messages
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Messages](
+	[id] [varchar](100) NOT NULL,
+	[eventtime] [datetime] NOT NULL,
+	[eventtype] [varchar](100) NULL,
+	[convid] [varchar](80) NOT NULL,
+	[tenantname] [varchar](100) NULL,
+	[tenantid] [varchar](100) NULL,
+	[dialogname] [varchar](100) NULL,
+	[speaker] [varchar](100) NULL,
+	[text] [varchar](5000) NULL,
+	[dialogoutcome] [varchar](100) NULL
+) ON [PRIMARY]
+GO
+
+drop table MultiChoiceAnswers
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[MultiChoiceAnswers](
+	[id] [varchar](100) NOT NULL,
+	[eventtime] [datetime] NOT NULL,
+	[eventtype] [varchar](100) NULL,
+	[convid] [varchar](80) NOT NULL,
+	[tenantname] [varchar](100) NULL,
+	[tenantid] [varchar](100) NULL,
+	[dialogname] [varchar](100) NULL,
+	[label] [varchar](100) NULL,
+	[score] [int] NULL,
+	[entity] [varchar](200) NULL,
+	[index] [int] NULL
+) ON [PRIMARY]
+GO
+

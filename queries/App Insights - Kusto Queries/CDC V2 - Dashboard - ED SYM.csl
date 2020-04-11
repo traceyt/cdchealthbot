@@ -80,20 +80,6 @@ customEvents
         | where stepLabel_ == 'State'
         | project conv_id_ , state_
 ) on conv_id_
-// get the long term care facility response
-| join kind= leftouter (
-   customEvents
-        | extend conv_id_ = tostring(customDimensions.conv_id)
-        | extend step_ = todynamic(tostring(customDimensions.step))   
-        | extend response_ = todynamic(tostring(step_.response))
-        | extend stepLabel_ = step_.label  
-        | extend ltcf_ = response_.entity
-        | extend ltcfIndex_ = response_.index           
-        | where customDimensions.tenantName == tenantName_ 
-        | where name == 'StepExecuted'
-        | where stepLabel_ == 'LTCF'
-        | project conv_id_ , ltcf_, ltcfIndex_ 
-) on conv_id_ 
 // get the emergency department response
 | join kind= leftouter (
    customEvents
