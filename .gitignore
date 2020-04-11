@@ -1,5 +1,4 @@
 webservice/node_modules/
+./node_modules
 .idea
 .secure
-
-container/node_modules
