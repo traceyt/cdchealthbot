@@ -9,9 +9,13 @@ A simple web page to hand off users to the Microsoft Health bot
 
 The covid-19 templates are coming from the CDC Github site. https://github.com/CDCgov/covid19healthbot
 
+< TO DO: need instructions on how to setup AZDO Pipelines and add the app secret and webchat secret to the app service  >
+< TO DO: ARM Template the configures that allow you to setup a container registry, then app service plan, then app service. >
+< TO DO: instructions on how to connect everything together >
+
 Below is the original README from the Healthbot Container Repo
 
-# Health Bot Container
+# FROM THE MICROSOFT HEALTHBOT REPOSITORY
 
 **Note:** In order to use this Web Chat with the Health Bot service, you will need to obtain your Web Chat secret by going to ["Integration/Secrets"](./secrets.png) on the navigation panel.
 Please refer to [Microsoft Health Bot](https://www.microsoft.com/en-us/research/project/health-bot/) for a private preview and details.
