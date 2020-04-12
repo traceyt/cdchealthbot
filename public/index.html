@@ -21,33 +21,24 @@
     <script src="index.js"></script>
     <link href="stylesheets/style.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <style>
-        html, body { height: 100% }
-        body {
-          margin: 0;
-          background-color: paleturquoise;
-        }
-    
-        #webchat {
-          height: 100%;
-          width: 100%;
-        }
-      </style>
 </head>
 <body>
-<div id="webchat" role="main" watermark="false"></div>
-<script>chatRequested();</script>
-<script>
-    (async function () {
-    window.WebChat.renderWebChat({
-      directLine: window.WebChat.createDirectLine({ token }),
-      styleOptions: {
-        rootHeight: '100%',
-        rootWidth: '50%'
-      }
-    }, document.getElementById('webchat'));
-    })()
-  </script>
+    <iframe id="chat" style="width: 400px; height: 400px;" src=''></iframe>
 </body>
+<script>
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', "https://webchat.botframework.com/api/tokens", true);
+    xhr.setRequestHeader('Authorization', 'BotConnector ' + 'iYnaNpjztAU._O-nLj867rE-oHnrLaNUKeM28oG3ejtkfUP1DfbfDVc');
+    xhr.send();
+    xhr.onreadystatechange = processRequest;
+
+    function processRequest(e) {
+        if (xhr.readyState == 4  && xhr.status == 200) {
+        var response = JSON.parse(xhr.responseText);
+        document.getElementById("chat").src="https://webchat.botframework.com/embed/lucas-direct-line?t="+response
+        }
+    }
+
+    </script>
 </html>
