@@ -23,8 +23,8 @@ html, body {
   display: block;
 }
 
-#botContainer>* {
-  font-size: 20px;
+#webchat>* {
+  font-size: 22px;
 }
 
 .ac-input div input[type="checkbox"] + div{
