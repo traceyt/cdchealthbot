@@ -23,10 +23,6 @@ html, body {
   display: block;
 }
 
-#webchat>* {
-  font-size: 22px;
-}
-
 .ac-input div input[type="checkbox"] + div{
   flex: auto !important;
   white-space: unset!important;
