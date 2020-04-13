@@ -18,7 +18,7 @@ body {
   color: #707070;
   display: block;
   font-family: 'Segoe Semibold', Calibri, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   padding: 15px 10px 10px;
   position: absolute;
   position: sticky;
@@ -30,4 +30,62 @@ body {
   left: 50%;
   right: unset;
   transform: translate(-50%, 0);
+}
+
+#webchat .ac-input {
+  position: relative;
+}
+
+#webchat .ac-input > div {
+  align-items: start !important;
+}
+
+#webchat .ac-input input[type="checkbox"] {
+  vertical-align: top !important;
+  margin-top: 4px !important;
+}
+
+#webchat .ac-input input[type="checkbox"] ~label,
+#webchat .ac-input button div,
+#webchat .ac-actionSet button div {
+  white-space: pre-wrap !important;
+  text-overflow: unset !important;
+}
+
+#webchat .ac-actionSet button,
+#webchat .ac-input button,
+#webchat .ac-input input,
+#webchat .ac-input input[type="checkbox"] ~label {
+  cursor: pointer;
+}
+
+#webchat .ac-input button.selected-button,
+#webchat .ac-input button:hover,
+#webchat .ac-input button[disabled].selected-button,
+#webchat .ac-actionSet button.selected-button,
+#webchat .ac-actionSet button:hover,
+#webchat .ac-actionSet button[disabled].selected-button
+ {
+  background: rgb(0, 99, 177);
+  color: white;
+}
+
+#webchat .ac-actionSet button[disabled],
+#webchat .ac-input button[disabled] {
+  background: transparent;
+  color: rgb(0, 99, 177);
+}
+
+#webchat .ac-actionSet button.past,
+#webchat .ac-input button.past,
+#webchat .ac-input input.past,
+#webchat .ac-input input.past ~ label {
+  cursor: not-allowed !important;
+  mouse-events: none !important;
+
+}
+
+#webchat input[type="checkbox"]:checked ~ label {
+  color: rgb(0, 99, 177) !important;
+  font-weight: 600 !important;
 }
