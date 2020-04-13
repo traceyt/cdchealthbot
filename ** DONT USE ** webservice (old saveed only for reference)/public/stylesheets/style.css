@@ -23,6 +23,10 @@ html, body {
   display: block;
 }
 
+#botContainer>* {
+  font-size: 20px;
+}
+
 .ac-input div input[type="checkbox"] + div{
   flex: auto !important;
   white-space: unset!important;
