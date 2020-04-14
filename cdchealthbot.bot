@@ -1,0 +1,18 @@
+{
+    "name": "cdchealthbot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:8000",
+            "id": "6af01250-7df1-11ea-9981-f5343e758471",
+            "name": "http://localhost:8000"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "/Users/traceyt/gitRepo/cdchealthbot/cdchealthbot.bot"
+}
