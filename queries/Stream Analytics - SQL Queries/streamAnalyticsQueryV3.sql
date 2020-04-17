@@ -19,7 +19,8 @@ WITH MESSAGES AS
     FROM traceythealthbotinputdev A PARTITION BY BlobName
     CROSS APPLY GetElements(A.context.custom.dimensions) as dim
     GROUP BY System.Timestamp, A.internal.data.id
-    HAVING eventType = 'CDC_CORE_OUTCOME' or eventType = 'StepExecuted' OR eventType = 'Message' 
+    HAVING eventType = 'CDC_CORE_OUTCOME' or eventType = 'CDC_WRAPPER_OUTCOME'
+                or eventType = 'StepExecuted' OR eventType = 'Message' 
                 or eventType = 'ScenarioOutcome' or eventType = 'ScenarioStart' or eventType = 'ScenarioEnded'
 )
 
