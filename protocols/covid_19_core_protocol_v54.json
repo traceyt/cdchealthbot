@@ -121,7 +121,7 @@
         "yLocation": 1353
       },
       "text": "scenario.messages.msg4",
-      "stringId": "stringId_abd468edaf48030d",
+      "stringId": "stringId_b0500c2eac31e9ca",
       "label": "MSG 4",
       "entity": "{\n name: \"completion_event\",\n message_id: 4\n}",
       "visible": "scenario.show_message"
@@ -394,7 +394,7 @@
       },
       "text": "scenario.questions.ltcf_question",
       "variable": "nursing_home",
-      "stringId": "stringId_49a4abad9ae1e9a9",
+      "stringId": "stringId_1d36367bb4a675a3",
       "choiceType": "choice",
       "label": "LTCF"
     },
@@ -418,7 +418,7 @@
         "yLocation": 2700
       },
       "text": "scenario.messages.msg7",
-      "stringId": "stringId_ceb817b8d9673f93",
+      "stringId": "stringId_5cfe92e4c90e94bc",
       "label": "MSG 7",
       "entity": "{\n name: \"completion_event\",\n message_id: 7   \n}",
       "visible": "scenario.show_message"
@@ -447,7 +447,7 @@
       },
       "text": "scenario.questions.hcf_question",
       "variable": "healthcare_facility",
-      "stringId": "stringId_067470550b424166",
+      "stringId": "stringId_c09f771c66485c51",
       "choiceType": "choice",
       "label": "HCF"
     },
@@ -507,7 +507,7 @@
       },
       "text": "scenario.questions.hcf_question",
       "variable": "healthcare_facility",
-      "stringId": "stringId_103cad9de14cb8b9",
+      "stringId": "stringId_8bfc8f691e96ffab",
       "choiceType": "choice",
       "label": "HCF"
     },
@@ -533,7 +533,7 @@
         "next": "3503dd49eb60-5736a207bcc8b4cd-3292"
       },
       "text": "scenario.messages.msg6",
-      "stringId": "stringId_94b26aa69ee2cc92",
+      "stringId": "stringId_0c0a66b041697dea",
       "label": "MSG 6",
       "entity": "{\n name: \"completion_event\",\n message_id: 6  \n}",
       "visible": "scenario.show_message"
@@ -550,7 +550,7 @@
       },
       "text": "scenario.questions.hcf_question",
       "variable": "healthcare_facility",
-      "stringId": "stringId_d8558cda9633715b",
+      "stringId": "stringId_85fc5b7f6b19f1ef",
       "choiceType": "choice",
       "label": "HCF"
     },
@@ -576,7 +576,7 @@
         "next": "d3e716843984-55078f6a8c32df09-19ad"
       },
       "text": "scenario.messages.msg5",
-      "stringId": "stringId_c3a33a78f2a8d609",
+      "stringId": "stringId_68acabb89e24415a",
       "label": "MSG 5",
       "entity": "{\n name: \"completion_event\",\n message_id: 5  \n}",
       "visible": "scenario.show_message"
@@ -593,7 +593,7 @@
       },
       "text": "scenario.questions.ltcf_question",
       "variable": "nursing_home",
-      "stringId": "stringId_acbc590b2d4e8319",
+      "stringId": "stringId_4d4c53debbfbcd8f",
       "choiceType": "choice",
       "label": "LTCF"
     },
@@ -617,7 +617,7 @@
         "yLocation": 2734
       },
       "text": "scenario.messages.msg7",
-      "stringId": "stringId_b8e5fc5068bbf939",
+      "stringId": "stringId_bcc43933ea63fc6c",
       "label": "MSG 7",
       "entity": "{\n name: \"completion_event\",\n message_id: 7   \n}",
       "visible": "scenario.show_message"
@@ -634,7 +634,7 @@
       },
       "text": "scenario.questions.hcf_question",
       "variable": "healthcare_facility",
-      "stringId": "stringId_fc5d7f4b28b48cf8",
+      "stringId": "stringId_14ccb72ef814ffc9",
       "choiceType": "choice",
       "label": "HCF"
     },
@@ -660,7 +660,7 @@
         "next": "926a696c9fa6-26d4419d59c7c7f2-926b"
       },
       "text": "scenario.messages.msg8",
-      "stringId": "stringId_b4796bbd61cf374e",
+      "stringId": "stringId_a41901d2fb11a01f",
       "label": "MSG 8",
       "entity": "{\n name: \"completion_event\",\n message_id: 8   \n}",
       "visible": "scenario.show_message"
@@ -674,7 +674,7 @@
         "next": "14463dbdd18a-023bfb17ddf420e5-8bb8"
       },
       "text": "scenario.messages.msg8",
-      "stringId": "stringId_d9581989e698256d",
+      "stringId": "stringId_428b007e3f9e3d6b",
       "label": "MSG 8",
       "entity": "{\n name: \"completion_event\",\n message_id: 8   \n}",
       "visible": "scenario.show_message"
@@ -688,7 +688,7 @@
         "next": "1aee8fc7a32b-e03f1c277b079f40-c61c"
       },
       "text": "scenario.messages.msg6",
-      "stringId": "stringId_40030edc392e9603",
+      "stringId": "stringId_40e491cfa396e0c4",
       "label": "MSG 6",
       "entity": "{\n name: \"completion_event\",\n message_id: 6  \n}",
       "visible": "scenario.show_message"
@@ -701,7 +701,7 @@
         "yLocation": 1313
       },
       "text": "scenario.messages.msg4",
-      "stringId": "stringId_b585ea0db1178dd3",
+      "stringId": "stringId_bdd45cd583eae408",
       "label": "MSG 4",
       "entity": "{\n name: \"completion_event\",\n message_id: 4  \n}",
       "visible": "scenario.show_message"
@@ -715,7 +715,7 @@
         "next": "af9414f537a7-c161ec835caa7041-612b"
       },
       "text": "scenario.messages.msg9",
-      "stringId": "stringId_bf0b6c67d3ab047c",
+      "stringId": "stringId_193dbe234f6d51d9",
       "label": "MSG 9",
       "entity": "{\n name: \"completion_event\",\n message_id: 9  \n}",
       "visible": "scenario.show_message"
@@ -729,7 +729,7 @@
         "next": "42ec50f737e8-7be33522dd7126e6-d684"
       },
       "text": "scenario.messages.msg5",
-      "stringId": "stringId_669a0f48a613a948",
+      "stringId": "stringId_cda6326caea79c0b",
       "label": "MSG 5",
       "entity": "{\n name: \"completion_event\",\n message_id: 5  \n}",
       "visible": "scenario.show_message"
@@ -743,7 +743,7 @@
         "next": "4c4765dbdf0c-b5d71b44bc966c2c-c31b"
       },
       "text": "scenario.messages.msg8",
-      "stringId": "stringId_cae95de5a400031d",
+      "stringId": "stringId_0d05320783a26241",
       "label": "MSG 8",
       "entity": "{\n name: \"completion_event\",\n message_id: 8   \n}",
       "visible": "scenario.show_message"
@@ -787,7 +787,7 @@
       },
       "text": "scenario.questions.button_question",
       "variable": "ed_symptoms",
-      "stringId": "stringId_3a27fe8ad1c3b9a7",
+      "stringId": "stringId_36515d4931b5a697",
       "choiceType": "choice",
       "label": "ED SYM"
     },
@@ -812,7 +812,7 @@
         "yLocation": 1554
       },
       "text": "scenario.messages.msg4",
-      "stringId": "stringId_46955e760e34b74e",
+      "stringId": "stringId_aa8234ef7eff4700",
       "label": "MSG 4",
       "entity": "{\n name: \"completion_event\",\n message_id: 4   \n}",
       "visible": "scenario.show_message"
@@ -826,7 +826,7 @@
         "next": "301ce3345c27-5b97460f5ab70f72-de17"
       },
       "text": "scenario.messages.msg10",
-      "stringId": "stringId_f0e059b9e20c3b14",
+      "stringId": "stringId_2bceecd1f2f42cb9",
       "label": "MSG 10",
       "entity": "{\n name: \"completion_event\",\n message_id: 10   \n}",
       "visible": "scenario.show_message"
@@ -950,7 +950,7 @@
         "next": "e8856bcbed8c-8f1313d0491026e6-e307"
       },
       "text": "scenario.messages.msg8",
-      "stringId": "stringId_79059e492e869eb1",
+      "stringId": "stringId_0aab1851da63c67b",
       "label": "MSG 8",
       "entity": "{\n name: \"completion_event\",\n message_id: 8   \n}",
       "visible": "scenario.show_message"
@@ -964,7 +964,7 @@
         "next": "c5a6fb5535d7-9440600e87e60a22-1f38"
       },
       "text": "scenario.messages.msg5",
-      "stringId": "stringId_41ab6e1d117fb55d",
+      "stringId": "stringId_6d6d30ebb2426485",
       "label": "MSG 5",
       "entity": "{\n name: \"completion_event\",\n message_id: 5  \n}",
       "visible": "scenario.show_message"
@@ -994,7 +994,7 @@
       "text": "scenario.questions.risk_factor_question",
       "variable": "risk_factors",
       "label": "Risk factors",
-      "stringId": "stringId_92e7a8eda9603227",
+      "stringId": "stringId_8632dfae0cd9b171",
       "choiceType": "multi-choice",
       "submitTitle": "scenario.responses.submit_button"
     },
@@ -1023,7 +1023,7 @@
       "text": "scenario.questions.risk_factor_question",
       "variable": "risk_factors",
       "label": "Risk factors",
-      "stringId": "stringId_b87704a42e6d9b96",
+      "stringId": "stringId_25ccac61730d477e",
       "choiceType": "multi-choice",
       "submitTitle": "scenario.responses.submit_button"
     },
@@ -1064,7 +1064,7 @@
       },
       "text": "scenario.questions.hcf_question",
       "variable": "healthcare_facility",
-      "stringId": "stringId_05e9996eef766338",
+      "stringId": "stringId_fe913a436885d586",
       "choiceType": "choice",
       "label": "HCF"
     },
@@ -1094,7 +1094,7 @@
       "text": "scenario.questions.risk_factor_question",
       "variable": "risk_factors",
       "label": "Risk factors",
-      "stringId": "stringId_62d1584d4db63ae2",
+      "stringId": "stringId_0488bfef6ee33c3d",
       "choiceType": "multi-choice",
       "submitTitle": "scenario.responses.submit_button"
     },
@@ -1135,7 +1135,7 @@
       },
       "text": "scenario.questions.ltcf_question",
       "variable": "nursing_home",
-      "stringId": "stringId_8781b98f6dc05803",
+      "stringId": "stringId_859690709062a5d1",
       "choiceType": "choice",
       "label": "LTCF"
     },
@@ -1185,7 +1185,7 @@
         "next": "414c8ce63048-5e86b5328256eaa0-ffe5"
       },
       "text": "scenario.messages.continue_msg",
-      "stringId": "stringId_2c66bcca886704df",
+      "stringId": "stringId_9db2de1ef917ed8d",
       "label": "CONT"
     },
     {
@@ -1197,7 +1197,7 @@
         "next": "59e44f5c0f76-992c44eb9cc4889a-69eb"
       },
       "text": "scenario.messages.continue_msg",
-      "stringId": "stringId_e339d69ff1d82872",
+      "stringId": "stringId_1e0038041cdf9de6",
       "label": "CONT"
     },
     {
@@ -1235,7 +1235,7 @@
         "next": "4aa658a0b628-8416967ef881fb2c-6bee"
       },
       "text": "scenario.messages.continue_msg",
-      "stringId": "stringId_e085044f99db4487",
+      "stringId": "stringId_7f271e93c5eed875",
       "label": "CONT"
     },
     {
@@ -1247,7 +1247,7 @@
         "next": "2b857538b615-fad6e8224dcf52bc-523d"
       },
       "text": "scenario.messages.continue_msg",
-      "stringId": "stringId_711676f35cb10f8b",
+      "stringId": "stringId_cdfc355eee440908",
       "label": "CONT"
     },
     {
@@ -1337,7 +1337,7 @@
         "next": "81f8cb2a6284-3f8429fdc4aaa38a-71ad"
       },
       "text": "scenario.messages.msg9",
-      "stringId": "stringId_7a2423fa127e33f6",
+      "stringId": "stringId_0e6310419acd0df8",
       "label": "MSG 9",
       "entity": "{\n name: \"completion_event\",\n message_id: 9  \n}",
       "visible": "scenario.show_message"
@@ -1351,7 +1351,7 @@
         "next": "32895cde346f-70c463e1f8dcb47b-2287"
       },
       "text": "scenario.messages.msg6",
-      "stringId": "stringId_a449393ac010af34",
+      "stringId": "stringId_e6eab3341fad1803",
       "label": "MSG 6",
       "entity": "{\n name: \"completion_event\",\n message_id: 6  \n}",
       "visible": "scenario.show_message"
@@ -1365,7 +1365,7 @@
         "next": "8db87a2b5fda-ef7d20bda7223a0a-4890"
       },
       "text": "scenario.messages.msg9",
-      "stringId": "stringId_d051a8fd24a38cce",
+      "stringId": "stringId_039e39585bc8ba3a",
       "label": "MSG 9",
       "entity": "{\n name: \"completion_event\",\n message_id: 9  \n}",
       "visible": "scenario.show_message"
@@ -1405,7 +1405,7 @@
         "next": "5ff1adb26554-e841077ef21dc2f7-3151"
       },
       "text": "scenario.messages.msg8",
-      "stringId": "stringId_7127ef13b7dfa56d",
+      "stringId": "stringId_b17e32bf0e47ac13",
       "label": "MSG 8",
       "entity": "{\n name: \"completion_event\",\n message_id: 8   \n}",
       "visible": "scenario.show_message"
@@ -1419,7 +1419,7 @@
         "next": "ab10559e2f69-a86d1f69931d9810-0a31"
       },
       "text": "scenario.messages.msg5",
-      "stringId": "stringId_ceaa5faa8e8eef03",
+      "stringId": "stringId_f4a2903fad0dd610",
       "label": "MSG 5",
       "entity": "{\n name: \"completion_event\",\n message_id: 5  \n}",
       "visible": "scenario.show_message"
@@ -1602,7 +1602,7 @@
         "next": "872cf2465308-1c7373d556f0d2c6-b707"
       },
       "text": "scenario.messages.continue_msg",
-      "stringId": "stringId_2e201507ad230c3f",
+      "stringId": "stringId_823ec7c1acca23dd",
       "label": "CONT"
     },
     {
@@ -2010,7 +2010,7 @@
         "next": "61f383748ef9-b37503c63ea182a3-b167"
       },
       "text": "scenario.messages.msg10",
-      "stringId": "stringId_a7d9b13b7069544d",
+      "stringId": "stringId_295baffe9222dbf4",
       "label": "MSG 10",
       "entity": "{\n name: \"completion_event\",\n message_id: 10   \n}",
       "visible": "scenario.show_message"
@@ -2050,7 +2050,7 @@
         "next": "7be638003bed-2abfa768eb136725-99f7"
       },
       "text": "scenario.messages.msg10",
-      "stringId": "stringId_024eba9cd6d60f93",
+      "stringId": "stringId_5fddcf6eabb76233",
       "label": "MSG 10",
       "entity": "{\n name: \"completion_event\",\n message_id: 10   \n}",
       "visible": "scenario.show_message"
@@ -2092,7 +2092,7 @@
         "next": "3b8b5bd16110-472eb53b732e5541-8a42"
       },
       "text": "scenario.messages.msg10",
-      "stringId": "stringId_4183a3431cb960ea",
+      "stringId": "stringId_3f681a4001c01983",
       "label": "MSG 10",
       "entity": "{\n name: \"completion_event\",\n message_id: 10   \n}",
       "visible": "scenario.show_message"
@@ -2106,7 +2106,7 @@
       },
       "text": "scenario.messages.t2",
       "visible": "scenario.show_message",
-      "stringId": "stringId_d34e7285e4820dd4",
+      "stringId": "stringId_5fa867e73acc802c",
       "entity": "{\n  name: \"completion_event\",\n  message_id: \"t2\"\n}",
       "label": "TEST MSG 2"
     },
@@ -2120,7 +2120,7 @@
       },
       "text": "scenario.messages.t2",
       "visible": "scenario.show_message",
-      "stringId": "stringId_3fb15065e04a366d",
+      "stringId": "stringId_32d410909f4c4b71",
       "entity": "{\n  name: \"completion_event\",\n  message_id: \"t2\"\n}",
       "label": "TEST MSG 2"
     },
@@ -2146,7 +2146,7 @@
         "next": "982e03485c3d-4912d15407d15aa8-1e4c"
       },
       "text": "scenario.messages.msg8",
-      "stringId": "stringId_7edcc479dc1100b2",
+      "stringId": "stringId_3a97eaee970e1885",
       "label": "MSG 8",
       "entity": "{\n name: \"completion_event\",\n message_id: 8   \n}",
       "visible": "scenario.show_message"
@@ -2161,7 +2161,7 @@
       },
       "text": "scenario.messages.t2",
       "visible": "scenario.show_message",
-      "stringId": "stringId_3c4393e7ebfe669f",
+      "stringId": "stringId_7c7226c181b4e502",
       "entity": "{\n  name: \"completion_event\",\n  message_id: \"t2\"\n}",
       "label": "TEST MSG 2"
     },
@@ -2203,7 +2203,7 @@
       },
       "text": "scenario.questions.ltcf_question",
       "variable": "nursing_home",
-      "stringId": "stringId_fb23fbc8ca3f31cc",
+      "stringId": "stringId_cacd4545f82b0a9f",
       "choiceType": "choice",
       "label": "LTCF"
     },
@@ -2228,7 +2228,7 @@
         "yLocation": 2746
       },
       "text": "scenario.messages.msg7",
-      "stringId": "stringId_c69ff30e1217f437",
+      "stringId": "stringId_0600cdbff21736bd",
       "label": "MSG 7",
       "entity": "{\n name: \"completion_event\",\n message_id: 7   \n}",
       "visible": "scenario.show_message"
@@ -2245,7 +2245,7 @@
       },
       "text": "scenario.questions.hcf_question",
       "variable": "healthcare_facility",
-      "stringId": "stringId_7fe09d8feadb98a8",
+      "stringId": "stringId_655382ae07b4297a",
       "choiceType": "choice",
       "label": "HCF"
     },
@@ -2275,7 +2275,7 @@
       "text": "scenario.questions.risk_factor_question",
       "variable": "risk_factors",
       "label": "Risk factors",
-      "stringId": "stringId_1f5da8e80a01dee6",
+      "stringId": "stringId_0cad984d6b788bd5",
       "choiceType": "multi-choice",
       "submitTitle": "scenario.responses.submit_button"
     },
@@ -2301,7 +2301,7 @@
         "next": "a6258bf78fb0-96df791f69968870-9578"
       },
       "text": "scenario.messages.msg10",
-      "stringId": "stringId_dcdf046667d434ec",
+      "stringId": "stringId_a2124b00dc8c4be9",
       "label": "MSG 10",
       "entity": "{\n name: \"completion_event\",\n message_id: 10   \n}",
       "visible": "scenario.show_message"
@@ -2329,7 +2329,7 @@
       },
       "text": "scenario.messages.t2",
       "visible": "scenario.show_message",
-      "stringId": "stringId_a27db46343e9df15",
+      "stringId": "stringId_842420c259dadf76",
       "entity": "{\n  name: \"completion_event\",\n  message_id: \"t2\"\n}",
       "label": "TEST MSG 2"
     },
@@ -2381,7 +2381,7 @@
         "next": "bbab55cb8459-a1ee45206842434a-ac0c"
       },
       "text": "scenario.messages.continue_msg",
-      "stringId": "stringId_3469ab5fc27bb1f4",
+      "stringId": "stringId_76e77f41bbe54fcb",
       "label": "CONT"
     },
     {
@@ -2419,7 +2419,7 @@
         "next": "95ee5fbbf77c-203f54b711e1fadb-76c9"
       },
       "text": "scenario.messages.msg10",
-      "stringId": "stringId_1002551065fa771f",
+      "stringId": "stringId_e777992a98f7cace",
       "label": "MSG 10",
       "entity": "{\n name: \"completion_event\",\n message_id: 10   \n}",
       "visible": "scenario.show_message"
@@ -2446,7 +2446,7 @@
         "next": "95ee5fbbf77c-203f54b711e1fadb-76c9"
       },
       "text": "scenario.messages.msg10",
-      "stringId": "stringId_682b33f54a7ffe67",
+      "stringId": "stringId_d82c704713656eb2",
       "label": "MSG 10",
       "entity": "{\n name: \"completion_event\",\n message_id: 10   \n}",
       "visible": "scenario.show_message"
@@ -2460,7 +2460,7 @@
         "next": "9ddc97733186-243a9dad5511b3f1-bc40"
       },
       "text": "scenario.messages.msg10",
-      "stringId": "stringId_68979f0be9498b2c",
+      "stringId": "stringId_35d1e35381ab916b",
       "label": "MSG 10",
       "entity": "{\n name: \"completion_event\",\n message_id: 10   \n}",
       "visible": "scenario.show_message"
@@ -2475,7 +2475,7 @@
       },
       "text": "scenario.messages.t0",
       "visible": "scenario.show_message",
-      "stringId": "stringId_908eeb6b7041ee35",
+      "stringId": "stringId_52e8d00586fd191a",
       "entity": "{\n  name: \"completion_event\",\n  message_id: \"t0\"\n}",
       "label": "TEST MSG 0"
     },
@@ -2488,7 +2488,7 @@
       },
       "text": "scenario.messages.t2",
       "visible": "scenario.show_message",
-      "stringId": "stringId_55a3baa6a94f700e",
+      "stringId": "stringId_3300053539039071",
       "entity": "{\n  name: \"completion_event\",\n  message_id: \"t2\"\n}",
       "label": "TEST MSG 2"
     },
@@ -2515,7 +2515,7 @@
       },
       "text": "scenario.messages.t1",
       "visible": "scenario.show_message",
-      "stringId": "stringId_81e2d4ac8456d7c9",
+      "stringId": "stringId_7312dfa3a4d460b3",
       "entity": "{\n  name: \"completion_event\",\n  message_id: \"t1\"\n}",
       "label": "TEST MSG 1"
     },
@@ -2541,7 +2541,7 @@
         "next": "f9a4b95da73c-6c8d73e4a930cb0c-fc65"
       },
       "text": "scenario.messages.msg8",
-      "stringId": "stringId_3a8e48141e61bc00",
+      "stringId": "stringId_e8e79297f2e4509d",
       "label": "MSG 8",
       "entity": "{\n name: \"completion_event\",\n message_id: 8   \n}",
       "visible": "scenario.show_message"
@@ -2555,7 +2555,7 @@
         "next": "9c32faeafd0a-06ca621b19af4135-f908"
       },
       "text": "scenario.messages.msg8",
-      "stringId": "stringId_e867009cb4fb6270",
+      "stringId": "stringId_5e2b4efaca2c378e",
       "label": "MSG 8",
       "entity": "{\n name: \"completion_event\",\n message_id: 8   \n}",
       "visible": "scenario.show_message"
@@ -2570,7 +2570,7 @@
       },
       "text": "scenario.messages.t0",
       "visible": "scenario.show_message",
-      "stringId": "stringId_543b935005c49f63",
+      "stringId": "stringId_8119a6a99c39add8",
       "entity": "{\n  name: \"completion_event\",\n  message_id: \"t0\"\n}",
       "label": "TEST MSG 0"
     },
@@ -2584,7 +2584,7 @@
       },
       "text": "scenario.messages.t2",
       "visible": "scenario.show_message",
-      "stringId": "stringId_4ccb597ed606369d",
+      "stringId": "stringId_7aa4884024b681f0",
       "entity": "{\n  name: \"completion_event\",\n  message_id: \"t2\"\n}",
       "label": "TEST MSG 2"
     },
@@ -2597,7 +2597,7 @@
         "next": "028eef57c89a-756fe4d714efc9e0-7ebe"
       },
       "text": "scenario.messages.msg6",
-      "stringId": "stringId_e4121767c6fdc405",
+      "stringId": "stringId_8cbf3ddc38f50ea9",
       "label": "MSG 6",
       "entity": "{\n name: \"completion_event\",\n message_id: 6  \n}",
       "visible": "scenario.show_message"
@@ -2611,7 +2611,7 @@
         "next": "25829734641c-8237b9958054cf82-5ef0"
       },
       "text": "scenario.messages.msg6",
-      "stringId": "stringId_b6da1c243488a97d",
+      "stringId": "stringId_4c9385f1d59e40fa",
       "label": "MSG 6",
       "entity": "{\n name: \"completion_event\",\n message_id: 6  \n}",
       "visible": "scenario.show_message"
@@ -2626,7 +2626,7 @@
       },
       "text": "scenario.messages.t2",
       "visible": "scenario.show_message",
-      "stringId": "stringId_292b1ddcb9d314ea",
+      "stringId": "stringId_c40bc6dcdfdf602e",
       "entity": "{\n  name: \"completion_event\",\n  message_id: \"t2\"\n}",
       "label": "TEST MSG 2"
     },
@@ -2640,7 +2640,7 @@
       },
       "text": "scenario.messages.t0",
       "visible": "scenario.show_message",
-      "stringId": "stringId_c36eed375db3d1b9",
+      "stringId": "stringId_858464ff612312ae",
       "entity": "{\n  name: \"completion_event\",\n  message_id: \"t0\"\n}",
       "label": "TEST MSG 0"
     },
@@ -2654,7 +2654,7 @@
       },
       "text": "scenario.messages.t2",
       "visible": "scenario.show_message",
-      "stringId": "stringId_263e3c74766134ae",
+      "stringId": "stringId_7b6afb732d8ecc84",
       "entity": "{\n  name: \"completion_event\",\n  message_id: \"t2\"\n}",
       "label": "TEST MSG 2"
     },
@@ -2679,7 +2679,7 @@
       },
       "text": "scenario.messages.t2",
       "visible": "scenario.show_message",
-      "stringId": "stringId_d4ab745d8a392a05",
+      "stringId": "stringId_059e71d1981f7881",
       "entity": "{\n  name: \"completion_event\",\n  message_id: \"t2\"\n}",
       "label": "TEST MSG 2"
     },
@@ -2693,7 +2693,7 @@
       },
       "text": "scenario.messages.t2",
       "visible": "scenario.show_message",
-      "stringId": "stringId_83ed375da6b86e24",
+      "stringId": "stringId_a31b116fef1eb06c",
       "entity": "{\n  name: \"completion_event\",\n  message_id: \"t2\"\n}",
       "label": "TEST MSG 2"
     },
@@ -2707,7 +2707,7 @@
       },
       "text": "scenario.messages.t2",
       "visible": "scenario.show_message",
-      "stringId": "stringId_3548f8879d4e7110",
+      "stringId": "stringId_b7a00c15543aa62a",
       "entity": "{\n  name: \"completion_event\",\n  message_id: \"t2\"\n}",
       "label": "TEST MSG 2"
     },
@@ -2721,7 +2721,7 @@
       },
       "text": "scenario.messages.t2",
       "visible": "scenario.show_message",
-      "stringId": "stringId_c846c727d32c6429",
+      "stringId": "stringId_48263a9ef0c48619",
       "entity": "{\n  name: \"completion_event\",\n  message_id: \"t2\"\n}",
       "label": "TEST MSG 2"
     },
@@ -2734,18 +2734,18 @@
         "yLocation": 1260,
         "next": "dfc0e87b51ad-db48170c06d27397-bca2"
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = ({\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: ({\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    })\n})\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "631e459f560a-03d82868e0b007e7-f4c0",
       "type": "action",
       "label": "MSG 4",
       "designer": {
-        "xLocation": 833,
+        "xLocation": 834,
         "yLocation": 1160,
         "next": "eb884718d2b0-ef457ff235403113-6c29"
       },
-      "onInit": "scenario.message_outcomes = [\"msg4\"]"
+      "onInit": "scenario.core_scenario_outcomes = ['msg4']\nscenario.message_outcome = 'msg4'"
     },
     {
       "id": "ea230df3bfa8-5468e11ab38ebcd8-4679",
@@ -2756,7 +2756,7 @@
         "yLocation": 1160,
         "next": "81250fbdb1d5-6ba44ad7ff3fc18c-4e50"
       },
-      "onInit": "scenario.message_outcomes = [\"msg3\"]"
+      "onInit": "scenario.core_scenario_outcomes = ['msg3']\nscenario.message_outcome = 'msg3'"
     },
     {
       "id": "c0e502adcdf6-320ddd6dd64410a8-5785",
@@ -2767,7 +2767,7 @@
         "yLocation": 1160,
         "next": "40c2099bc988-e31eb6719d0398cb-4d51"
       },
-      "onInit": "scenario.message_outcomes = [\"msg4\"]"
+      "onInit": "scenario.core_scenario_outcomes = ['msg4']\nscenario.message_outcome = 'msg4'"
     },
     {
       "id": "81250fbdb1d5-6ba44ad7ff3fc18c-4e50",
@@ -2778,7 +2778,7 @@
         "yLocation": 1260,
         "next": "8594a49431b7-b08f76379934d98e-5bc9"
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = ({\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: ({\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    })\n})\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "40c2099bc988-e31eb6719d0398cb-4d51",
@@ -2789,7 +2789,7 @@
         "yLocation": 1232,
         "next": "7749c0587f24-8663b95589b33505-72c7"
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = ({\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: ({\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    })\n})\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "3ef8cd7fc2df-84ff47c415882944-6405",
@@ -2800,7 +2800,7 @@
         "yLocation": 600,
         "next": "af0cdf969d37-91b809e96d374759-d8d2"
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = ({\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: ({\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    })\n})\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "15ed2745af6d-161f4715f05b56d2-d6d2",
@@ -2811,7 +2811,7 @@
         "yLocation": 520,
         "next": "3ef8cd7fc2df-84ff47c415882944-6405"
       },
-      "onInit": "scenario.message_outcomes = [\"msg1\"]"
+      "onInit": "scenario.core_scenario_outcomes = ['msg1']\nscenario.message_outcome = 'msg1'"
     },
     {
       "id": "8b24b3150df5-fd6d8bd10d6a9504-00ab",
@@ -2822,7 +2822,7 @@
         "yLocation": 1480,
         "next": "fe8af1ae32b9-f8024fdc9a7f0407-0cad"
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = ({\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: ({\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    })\n})\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "ad02a9d1a8b1-b406dcec17d9fa12-ced6",
@@ -2833,7 +2833,7 @@
         "yLocation": 1409,
         "next": "8b24b3150df5-fd6d8bd10d6a9504-00ab"
       },
-      "onInit": "scenario.message_outcomes = [\"msg4\"]"
+      "onInit": "scenario.core_scenario_outcomes = ['msg4']\nscenario.message_outcome = 'msg4'"
     },
     {
       "id": "88a662ccc8d1-6b07592935bf7b7b-d32d",
@@ -2844,7 +2844,7 @@
         "yLocation": 1410,
         "next": "da5f83def5f2-4df99005010e8345-48fb"
       },
-      "onInit": "scenario.message_outcomes = [\"msg4\"]"
+      "onInit": "scenario.core_scenario_outcomes = ['msg4']\nscenario.message_outcome = 'msg4'"
     },
     {
       "id": "da5f83def5f2-4df99005010e8345-48fb",
@@ -2855,7 +2855,7 @@
         "yLocation": 1480,
         "next": "80a24a60d1fa-1e6276c21954c43b-3b36"
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = ({\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: ({\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    })\n})\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "731881290b80-2799cef71251970a-5d0d",
@@ -2866,7 +2866,7 @@
         "yLocation": 1600,
         "next": "0877ab9004d1-3323d4978b6018a0-e09d"
       },
-      "onInit": "scenario.message_outcomes = [\"msg4\"]"
+      "onInit": "scenario.core_scenario_outcomes = ['msg4']\nscenario.message_outcome = 'msg4'"
     },
     {
       "id": "0877ab9004d1-3323d4978b6018a0-e09d",
@@ -2877,7 +2877,7 @@
         "yLocation": 1670,
         "next": "de8bb350326a-873b7e26f242625b-76d6"
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = ({\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: ({\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    })\n})\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "30515ce14f89-abcc4421f610913f-161b",
@@ -2888,7 +2888,7 @@
         "yLocation": 2120,
         "next": "42c9a3e45475-5ac6bae29aa09197-403e"
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = {\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: {\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    }\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "88c4e04d3104-7308b12280ada799-d3b8",
@@ -2899,7 +2899,7 @@
         "yLocation": 2040,
         "next": "30515ce14f89-abcc4421f610913f-161b"
       },
-      "onInit": "scenario.message_outcomes = [\"msg0\"]"
+      "onInit": "scenario.core_scenario_outcomes = ['msg0']\nscenario.message_outcome = 'msg0'"
     },
     {
       "id": "a902fe6e4f00-5169e50b387a8bf2-23d4",
@@ -2910,7 +2910,7 @@
         "yLocation": 2700,
         "next": "5c50811ee2a7-b3b0aab1e37fc102-0107"
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = {\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: {\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    }\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "d11e09e6ca63-45491e4d834c924c-fbd4",
@@ -2921,7 +2921,7 @@
         "yLocation": 2620,
         "next": "a902fe6e4f00-5169e50b387a8bf2-23d4"
       },
-      "onInit": "scenario.message_outcomes = [\"msg7\"]"
+      "onInit": "scenario.core_scenario_outcomes = ['msg7']\nscenario.message_outcome = 'msg7'\n"
     },
     {
       "id": "324cb0d50daf-a1b7b7544a1eb2fa-ca5b",
@@ -2932,7 +2932,7 @@
         "yLocation": 2590,
         "next": "8eb7fbf8cd46-de596ae4478c1ac2-9253"
       },
-      "onInit": "scenario.message_outcomes = [\"msg7\"]"
+      "onInit": "scenario.core_scenario_outcomes = ['msg7']\nscenario.message_outcome = 'msg7'"
     },
     {
       "id": "8eb7fbf8cd46-de596ae4478c1ac2-9253",
@@ -2943,7 +2943,7 @@
         "yLocation": 2666,
         "next": "7570684c5969-0132044bfe08c0d9-8210"
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = {\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: {\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    }\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "3798231b0643-a65e36fa0133088e-8d24",
@@ -2954,7 +2954,7 @@
         "yLocation": 2580,
         "next": "d665a6508c46-a2bdbd2e00f218e6-2619"
       },
-      "onInit": "scenario.message_outcomes = [\"msg7\"]"
+      "onInit": "scenario.core_scenario_outcomes = ['msg7']\nscenario.message_outcome = 'msg7'"
     },
     {
       "id": "d665a6508c46-a2bdbd2e00f218e6-2619",
@@ -2965,7 +2965,7 @@
         "yLocation": 2660,
         "next": "4800c3314188-304c1ccbdee66654-60fe"
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = {\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: {\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    }\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "01a78be15af1-e293c18d1693e7b2-daef",
@@ -2976,7 +2976,7 @@
         "yLocation": 2540,
         "next": "8656fe4e55f5-7ed9b573aa71b258-ce8f"
       },
-      "onInit": "scenario.message_outcomes = [\"msg7\"]"
+      "onInit": "scenario.core_scenario_outcomes = ['msg7']\nscenario.message_outcome = 'msg7'"
     },
     {
       "id": "8656fe4e55f5-7ed9b573aa71b258-ce8f",
@@ -2987,7 +2987,7 @@
         "yLocation": 2620,
         "next": "38a461e086f7-cc03c9068c518cfb-6bbe"
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = {\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: {\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    }\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "83292c49d542-c0205167d98aa249-8b15",
@@ -2998,7 +2998,7 @@
         "yLocation": 2860,
         "next": "cc8d764e6d19-364d6f8c3f237b15-f6c3"
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = {\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: {\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    }\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "630179408ae4-a39be06855eb07c7-0112",
@@ -3009,7 +3009,7 @@
         "yLocation": 2791,
         "next": "83292c49d542-c0205167d98aa249-8b15"
       },
-      "onInit": "scenario.message_outcomes = [\"msg9\", \"msg6\", \"t2\"]"
+      "onInit": "scenario.core_scenario_outcomes = ['msg9', 'msg6', 't2']\nscenario.message_outcome = 'msg9'\nscenario.test_message_outcome = 't2'"
     },
     {
       "id": "400dfc442f20-c155be96322b2a5e-09e1",
@@ -3020,7 +3020,7 @@
         "yLocation": 3160,
         "next": "345a28beada8-a43221b4a9d92f10-4380"
       },
-      "onInit": "scenario.message_outcomes = [\"msg5\", \"t2\"]"
+      "onInit": "scenario.core_scenario_outcomes = ['msg5', 't2']\nscenario.message_outcome = 'msg5'\nscenario.test_message_outcome = 't2'"
     },
     {
       "id": "5ff1adb26554-e841077ef21dc2f7-3151",
@@ -3030,7 +3030,7 @@
         "xLocation": 180,
         "yLocation": 3520
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = {\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: {\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    }\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "9f2ce6d914e3-e5f3fb85440a85ff-36e3",
@@ -3041,7 +3041,7 @@
         "yLocation": 3240,
         "next": "1ad03c4a8891-7486b59aa78864c7-b03b"
       },
-      "onInit": "scenario.message_outcomes = ['msg8']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg8']\nscenario.message_outcome = 'msg8'"
     },
     {
       "id": "ad6b9490df2a-b67f2d01498fc80e-bf31",
@@ -3052,7 +3052,7 @@
         "yLocation": 3240,
         "next": "0730220ca29a-0278d37a0379001c-8889"
       },
-      "onInit": "scenario.message_outcomes = ['msg8', 't2']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg8', 't2']\nscenario.message_outcome = 'msg8'\nscenario.test_message_outcome = 't2'"
     },
     {
       "id": "fba7e05cf3a0-a7293c1416745eca-e9e0",
@@ -3063,40 +3063,40 @@
         "yLocation": 3120,
         "next": "f63c3ea76856-37f9c17e20c58470-22fe"
       },
-      "onInit": "scenario.message_outcomes = ['msg0']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg0']\nscenario.message_outcome = 'msg0'"
     },
     {
       "id": "f63c3ea76856-37f9c17e20c58470-22fe",
       "type": "action",
       "label": "Outcome",
       "designer": {
-        "xLocation": 447,
+        "xLocation": 448,
         "yLocation": 3200,
         "next": "18c1d760c40f-af4400e0fa0b76bc-891d"
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = {\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: {\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    }\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "530fbe9c9d90-7cfe3c6339c748ee-cd53",
       "type": "action",
       "label": "MSG 10,6,T2",
       "designer": {
-        "xLocation": 580,
-        "yLocation": 2889,
+        "xLocation": 570,
+        "yLocation": 2900,
         "next": "1f5b0b1b8438-04185db02f33d799-50e3"
       },
-      "onInit": "scenario.message_outcomes = ['msg10', 'msg6', 't2']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg10', 'msg6', 't2']\nscenario.message_outcome = 'msg10'\nscenario.test_message_outcome = 't2'"
     },
     {
       "id": "1f5b0b1b8438-04185db02f33d799-50e3",
       "type": "action",
       "label": "Outcome",
       "designer": {
-        "xLocation": 572,
+        "xLocation": 571,
         "yLocation": 2970,
         "next": "753fcda3042c-34874f085149a441-202a"
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = {\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: {\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    }\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "71516eac92a7-6a32e83c1cfaaa6c-afe0",
@@ -3107,7 +3107,7 @@
         "yLocation": 3252,
         "next": "bac2deb4feac-262fa7d74cc56181-07a1"
       },
-      "onInit": "scenario.message_outcomes = ['msg10', 't1']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg10', 't1']\nscenario.message_outcome = 'msg10'\nscenario.test_message_outcome = 't1'"
     },
     {
       "id": "7be638003bed-2abfa768eb136725-99f7",
@@ -3117,7 +3117,7 @@
         "xLocation": 780,
         "yLocation": 3520
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = {\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: {\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    }\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "4656af61998b-8b5ec1daf9185bfd-e1dc",
@@ -3128,7 +3128,7 @@
         "yLocation": 3172,
         "next": "664349b413ef-5daa0affb2720a9d-f98d"
       },
-      "onInit": "scenario.message_outcomes = ['msg0']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg0']\nscenario.message_outcome = 'msg10'"
     },
     {
       "id": "664349b413ef-5daa0affb2720a9d-f98d",
@@ -3139,7 +3139,7 @@
         "yLocation": 3240,
         "next": "e6a35ba7078a-cc440f896b14fbb4-b982"
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = {\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: {\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    }\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "22ad4e1b9b10-b6499d64e54f4cce-d5d3",
@@ -3150,7 +3150,7 @@
         "yLocation": 3313,
         "next": "18c23789346f-947e740f03a875e8-ce20"
       },
-      "onInit": "scenario.message_outcomes = ['msg10', 't0']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg10', 't0']\nscenario.message_outcome = 'msg10'\nscenario.test_message_outcome = 't0'"
     },
     {
       "id": "2809edaa4099-a87f0d4f6bb2a8e3-31c1",
@@ -3161,7 +3161,7 @@
         "yLocation": 3312,
         "next": "4cbe83de0e67-ff37e61a59ce860a-3bd0"
       },
-      "onInit": "scenario.message_outcomes = ['msg10']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg10']\nscenario.message_outcome = 'msg10'"
     },
     {
       "id": "8826aa4f0369-f8cdd380036bbf8d-d7fb",
@@ -3172,7 +3172,7 @@
         "yLocation": 2880,
         "next": "d839f5ffdf41-cc1936ceedd9d3e9-50e6"
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = {\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: {\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    }\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "94e6b1047834-5f10a34e1ee23c70-90f6",
@@ -3183,7 +3183,7 @@
         "yLocation": 2810,
         "next": "8826aa4f0369-f8cdd380036bbf8d-d7fb"
       },
-      "onInit": "scenario.message_outcomes = ['msg10', 'msg6', 't2']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg10', 'msg6', 't2']\nscenario.message_outcome = 'msg10'\nscenario.test_message_outcome = 't2'"
     },
     {
       "id": "4e65aab498d2-d2467427e054c7fe-7f37",
@@ -3194,7 +3194,7 @@
         "yLocation": 3060,
         "next": "d16820315eab-8ddee7acf13c6406-c5e7"
       },
-      "onInit": "scenario.message_outcomes = ['msg0']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg0']\nscenario.message_outcome = 'msg0'"
     },
     {
       "id": "d16820315eab-8ddee7acf13c6406-c5e7",
@@ -3205,7 +3205,7 @@
         "yLocation": 3131,
         "next": "02eb8dc98fb9-4e275e63a56a1b19-3932"
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = {\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: {\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    }\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "a3fe29c271fa-580901351d6234ad-944e",
@@ -3216,7 +3216,7 @@
         "yLocation": 3286,
         "next": "307003dcdfc2-fb86bd15d032448c-6c60"
       },
-      "onInit": "scenario.message_outcomes = ['msg10']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg10']\nscenario.message_outcome = 'msg10'"
     },
     {
       "id": "95ee5fbbf77c-203f54b711e1fadb-76c9",
@@ -3226,7 +3226,7 @@
         "xLocation": 1340,
         "yLocation": 3514
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = {\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: {\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    }\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "9a116069bf9f-5947f73e0f7c3036-e8a3",
@@ -3237,7 +3237,7 @@
         "yLocation": 3289,
         "next": "537b955a6e8d-cac688aa0abd075a-5ec4"
       },
-      "onInit": "scenario.message_outcomes = ['msg10', 't0']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg10', 't0']\nscenario.message_outcome = 'msg10'\nscenario.test_messsage_outcome = 't0'"
     },
     {
       "id": "10b2e76ae63e-765e27112bcc02f3-41ca",
@@ -3248,7 +3248,7 @@
         "yLocation": 3288,
         "next": "cdaf80a3a8c8-0ffa576c68093a36-017b"
       },
-      "onInit": "scenario.message_outcomes = ['msg10']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg10']\nscenario.message_outcome = 'msg10'"
     },
     {
       "id": "eb59b38b3ca6-09e47d18d436647d-1332",
@@ -3259,7 +3259,7 @@
         "yLocation": 2940,
         "next": "517f17d75e79-8f4a8818358989f5-36e8"
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = {\n    message_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: {\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    }\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "64777325f7ac-b0a0a9b16e05514e-eee4",
@@ -3270,7 +3270,7 @@
         "yLocation": 2860,
         "next": "eb59b38b3ca6-09e47d18d436647d-1332"
       },
-      "onInit": "scenario.message_outcomes = ['msg8', 'msg6', 't2']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg8', 'msg6', 't2']\nscenario.message_outcome = 'msg8'\nscenario.test_message_outcome = 't2'"
     },
     {
       "id": "9d88be7eeb74-b93730d79cd4fd0a-d6ea",
@@ -3281,7 +3281,7 @@
         "yLocation": 3060,
         "next": "8ac1d68674a6-7b7519e065a735c1-22cb"
       },
-      "onInit": "scenario.message_outcomes = ['msg0']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg0']\nscenario.message_outcome = 'msg0'"
     },
     {
       "id": "8ac1d68674a6-7b7519e065a735c1-22cb",
@@ -3292,7 +3292,7 @@
         "yLocation": 3130,
         "next": "bc51d1c84af2-d728490455496151-12d4"
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: {\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    }\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "46e42d0d0f6f-bf5e887d1c01a0ce-1ef1",
@@ -3303,7 +3303,7 @@
         "yLocation": 3293,
         "next": "9d9080dc9744-ce645812f47d91a2-4314"
       },
-      "onInit": "scenario.message_outcomes = ['msg8', 't1']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg8', 't1']\nscenario.message_outcome = 'msg8'\nscenario.test_message_outcome = 't1'"
     },
     {
       "id": "9c32faeafd0a-06ca621b19af4135-f908",
@@ -3313,18 +3313,18 @@
         "xLocation": 1740,
         "yLocation": 3529
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: {\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    }\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "cad815d25b8d-4fe2fc2cb9fa42db-9316",
       "type": "action",
       "label": "MSG 8,T0",
       "designer": {
-        "xLocation": 1726,
+        "xLocation": 1720,
         "yLocation": 3300,
         "next": "7c5376b343bf-7ce68c3653ccefa6-e9a4"
       },
-      "onInit": "scenario.message_outcomes = ['msg8', 't0']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg8', 't0']\nscenario.message_outcome = 'msg8'\nscenario.test_message_outcome = 't0'"
     },
     {
       "id": "b1866c7ba04b-2c1d7be182296554-49eb",
@@ -3335,7 +3335,7 @@
         "yLocation": 3309,
         "next": "3b9bb00750bd-502d0db7cb1587d7-75f2"
       },
-      "onInit": "scenario.message_outcomes = ['msg8']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg8']\nscenario.message_outcome = 'msg8'"
     },
     {
       "id": "9529191be6cb-9e9f158eaddeb03c-758f",
@@ -3346,7 +3346,7 @@
         "yLocation": 2848,
         "next": "4cd225302be2-5d01df60d5c7f834-105f"
       },
-      "onInit": "scenario.message_outcomes = ['msg0']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg0']\nscenario.message_outcome = 'msg0'"
     },
     {
       "id": "4cd225302be2-5d01df60d5c7f834-105f",
@@ -3357,7 +3357,7 @@
         "yLocation": 2933,
         "next": "b40edbcb8e70-dc2a03fa62964a90-6d07"
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: {\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    }\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "d6d18cc3ecde-95ccacd6a00731ab-f5b5",
@@ -3368,7 +3368,7 @@
         "yLocation": 3232,
         "next": "eb31b2c11479-6f3ac6eae56eba73-b437"
       },
-      "onInit": "scenario.message_outcomes = ['msg5', 'msg6', 't2']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg5', 'msg6', 't2']\nscenario.message_outcome = 'msg5'\nscenario.test_message_outcome = 't2'"
     },
     {
       "id": "9274a60680ff-7677f1fa668eda2f-ae53",
@@ -3378,7 +3378,7 @@
         "xLocation": 2120,
         "yLocation": 3520
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: {\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    }\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "2b1dc45b8f98-d6e22bd29cfa66a1-0040",
@@ -3389,7 +3389,7 @@
         "yLocation": 3240,
         "next": "6b2cdf4ecac0-d0428f2388050853-14e8"
       },
-      "onInit": "scenario.message_outcomes = ['msg5', 't2']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg5', 't2']\nscenario.message_outcome = 'msg5'\nscenario.test_message_outcome = 't2'"
     },
     {
       "id": "b2e59e6838f4-1b554c097afc81dd-1e50",
@@ -3400,7 +3400,7 @@
         "yLocation": 3240,
         "next": "6b922f1f04b6-9d2caacb98e5626f-15e4"
       },
-      "onInit": "scenario.message_outcomes = ['msg8', 't0']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg8', 't0']\nscenario.message_outcome = 'msg8'\nscenario.test_message_outcome = 't0'"
     },
     {
       "id": "607d55e942f9-900d87a5414e698b-41a7",
@@ -3411,7 +3411,7 @@
         "yLocation": 3240,
         "next": "2e4328bffdae-bc3f2b1a460ae869-4444"
       },
-      "onInit": "scenario.message_outcomes = ['msg8', 'msg6', 't2']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg8', 'msg6', 't2']\nscenario.message_outcome = 'msg8'\nscenario.test_message_outcome = 't2'"
     },
     {
       "id": "0213610a88c3-c2caa25c776cedd0-0f86",
@@ -3421,7 +3421,7 @@
         "xLocation": 2600,
         "yLocation": 3351
       },
-      "onInit": "// store the contents of the conversation\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.message_outcomes,\n    version: scenario.version,\n    core_scenario_data: {\n        is_ill: scenario.is_ill || null,\n        who_for: scenario.who_for || null,\n        age: scenario.age || null,\n        gender: scenario.gender || null,\n        _911_symptoms: scenario._911_symptoms \n            ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n            : null,\n        ed_symptoms: scenario.ed_symptoms\n            ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n            : null,\n        breathing_symptoms: scenario.breathing_symptoms\n            ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n            : null,\n        cov19_contact: scenario.cov19_contact || null,\n        covid_symptoms: scenario.covid_symptoms\n            ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n            : null,\n        comorbidity: scenario.risk_factors\n            ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n            : null,\n        nursing_home: scenario.nursing_home || null,\n        healthcare_facility: scenario.healthcare_facility || null\n    }\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", conversation.core_outcome)"
+      "onInit": "// store the contents of the conversation\nconst core_scenario_data = {\n    is_ill: scenario.is_ill || null,\n    who_for: scenario.who_for || null,\n    age: scenario.age || null,\n    gender: scenario.gender || null,\n    _911_symptoms: scenario._911_symptoms \n        ? { index: scenario.lookup.emer_911_symptoms[scenario._911_symptoms.entity], entity: scenario._911_symptoms.entity }\n        : null,\n    ed_symptoms: scenario.ed_symptoms\n        ? { index: scenario.lookup.ed_symptoms[scenario.ed_symptoms.entity], entity: scenario.ed_symptoms.entity }\n        : null,\n    breathing_symptoms: scenario.breathing_symptoms\n        ? { index: scenario.lookup.breathing_symptoms[scenario.breathing_symptoms.entity], entity: scenario.breathing_symptoms.entity }\n        : null,\n    cov19_contact: scenario.cov19_contact || null,\n    covid_symptoms: scenario.covid_symptoms\n        ? scenario.covid_symptoms.map(sym => ({ index: scenario.lookup.covid_symptoms[sym.entity], entity: sym.entity }))\n        : null,\n    comorbidity: scenario.risk_factors\n        ? scenario.risk_factors.map(risk => ({ index: scenario.lookup.comorbidity[risk.entity], entity: risk.entity }))\n        : null,\n    nursing_home: scenario.nursing_home || null,\n    healthcare_facility: scenario.healthcare_facility || null\n}\n\nconversation.core_outcome = {\n    core_scenario_outcomes: scenario.core_scenario_outcomes,\n    core_scenario_data\n}\n\nconst log_outcome = {\n    message_outcome: scenario.message_outcome,\n    test_message_outcome: scenario.test_message_outcome || null,\n    version: scenario.version,\n    core_scenario_data\n}\n\nsession.logCustomEvent(\"CDC_CORE_OUTCOME\", log_outcome)"
     },
     {
       "id": "ce142b7cf36c-80b7924d3b83cc84-bcd3",
@@ -3432,7 +3432,7 @@
         "yLocation": 3050,
         "next": "61a40e58d848-bc3a02e7f7e171bd-867f"
       },
-      "onInit": "scenario.message_outcomes = ['msg9', 'msg6', 't2']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg9', 'msg6', 't2']\nscenario.message_outcome = 'msg9'\nscenario.test_message_outcome = 't2'"
     },
     {
       "id": "a0d95708b60b-f0690e4d3a54f838-98b8",
@@ -3443,7 +3443,7 @@
         "yLocation": 3052,
         "next": "03647478d4c0-a9c1db5b1f7b5719-3b87"
       },
-      "onInit": "scenario.message_outcomes = ['msg9', 't2']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg9', 't2']\nscenario.message_outcome = 'msg9'\nscenario.test_message_outcome = 't2'"
     },
     {
       "id": "8ea4a6cd9ff5-d2fd366b7c37c2be-0bdf",
@@ -3454,7 +3454,7 @@
         "yLocation": 3053,
         "next": "9eb5f2290a76-15af60d51be62753-5d83"
       },
-      "onInit": "scenario.message_outcomes = ['msg5', 't2']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg5', 't2']\nscenario.message_outcome = 'msg5'\nscenario.test_message_outcome = 't2'"
     },
     {
       "id": "61c257f96a5b-8c27178e93603473-c8d9",
@@ -3465,7 +3465,7 @@
         "yLocation": 3060,
         "next": "bc4e319a4ca7-5a9753cc3fe09fe7-9bc6"
       },
-      "onInit": "scenario.message_outcomes = ['msg5', 'msg6', 't2']"
+      "onInit": "scenario.core_scenario_outcomes = ['msg5', 'msg6', 't2']\nscenario.message_outcome = 'msg5'\nscenario.test_message_outcome = 't2'"
     }
   ],
   "interrupting": false,
