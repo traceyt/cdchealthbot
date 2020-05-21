@@ -107,7 +107,7 @@ function initBotConversation() {
                             // Use the following activity to proactively invoke a bot scenario
                             
                             triggeredScenario: {
-                                trigger: "covid19_v58"
+                                trigger: "covid19_v58_2"
                                 /*
                                 args: {
                                     myVar1: "{custom_arg_1}",
