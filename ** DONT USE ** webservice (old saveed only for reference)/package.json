@@ -7,7 +7,7 @@
   "repository": "https://github.com/traceyt/cdchealthbot",
   "dependencies": {
     "cookie-parser": "^1.4.3",
-    "express": "^4.15.3",
+    "express": "^4.17.3",
     "jsonwebtoken": "^8.5.1",
     "request": "^2.81.0",
     "request-promise": "^4.2.1"
